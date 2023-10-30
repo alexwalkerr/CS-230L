@@ -53,7 +53,7 @@ function NavBar() {
     );
 }
 
-export default NavBar;
+export NavBar;
 
 function Card() {
     return (
