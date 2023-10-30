@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './NavBar';
+import Card from './Card';
+
 
 function App() {
   return (
@@ -8,7 +11,9 @@ function App() {
       <h2>Section - 002</h2>
       <p>WVU ID: 800365400</p>
       <p>Hi I am Alex</p>
-	  <p>Test</p>
+	  <NavBar />
+
+        <Card />
     </div>
   );
 }
