@@ -52,7 +52,7 @@ function NavBar() {
     );
 }
 
-export default NavBar;
+export NavBar;
 
 function Card() {
     return (
@@ -67,7 +67,7 @@ function Card() {
     );
 }
 
-export default Card;
+export Card;
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
