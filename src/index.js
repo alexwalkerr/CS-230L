@@ -53,8 +53,6 @@ function NavBar() {
     );
 }
 
-export { NavBar };
-
 function Card() {
     return (
         <div className="card" style={{ width: "18rem" }}>
@@ -68,7 +66,7 @@ function Card() {
     );
 }
 
-export { Card };
+export { NavBar, Card };
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
