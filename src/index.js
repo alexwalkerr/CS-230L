@@ -23,11 +23,14 @@ function NavBar() {
 
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav">
-                    <li className="nav-item active">
-                        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+                    <li className="nav-item">
+                        <a className="nav-link" href="/">Home</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Link</a>
+                        <a className="nav-link" href="card">Card</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="contact">Contact</a>
                     </li>
                 </ul>
                 <form className="form-inline my-2 my-lg-0">
@@ -39,39 +42,7 @@ function NavBar() {
     );
 }
 
-
-function Card() {
-    return (
-        <div className="d-flex justify-content-center">
-            <div className="card" style={{ width: "18rem", margin: "0 10px" }}>
-                <img className="card-img-top" src="..." alt="Card image cap" />
-                <div className="card-body">
-                    <h5 className="card-title">Card 1</h5>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div>
-
-            <div className="card" style={{ width: "18rem", margin: "0 10px" }}>
-                <img className="card-img-top" src="..." alt="Card image cap" />
-                <div className="card-body">
-                    <h5 className="card-title">Card 2</h5>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div>
-
-            <div className="card" style={{ width: "18rem", margin: "0 10px" }}>
-                <img className="card-img-top" src="..." alt="Card image cap" />
-                <div className="card-body">
-                    <h5 className="card-title">Card 3</h5>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div>
-        </div>
-    );
-}
-
-
-export { NavBar, Card };
+export {NavBar};
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
